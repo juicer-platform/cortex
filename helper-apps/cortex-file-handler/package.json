@@ -12,7 +12,7 @@
     "test:gcs": "DOTENV_CONFIG_PATH=.env.test.gcs NODE_ENV=test ./scripts/test-gcs.sh"
   },
   "dependencies": {
-    "@azure/storage-blob": "^12.13.0",
+    "@azure/storage-blob": "^12.26.0",
     "@distube/ytdl-core": "^4.14.3",
     "@google-cloud/storage": "^7.10.0",
     "axios": "^1.7.4",
