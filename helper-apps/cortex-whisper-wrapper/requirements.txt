@@ -1,5 +1,6 @@
 # To ensure app dependencies are ported from your virtual environment/host machine into your container, run 'pip freeze > requirements.txt' in the terminal to overwrite this file
 fastapi[all]==0.89.0
 uvicorn[standard]==0.20.0
-gunicorn==22.0.0
+gunicorn==23.0.0
 openai-whisper
+transformers>=4.48.0 # not directly required, pinned by Snyk to avoid a vulnerability
