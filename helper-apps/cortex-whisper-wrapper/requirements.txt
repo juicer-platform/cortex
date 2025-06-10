@@ -3,3 +3,6 @@ fastapi[all]==0.89.0
 uvicorn[standard]==0.20.0
 gunicorn==22.0.0
 openai-whisper
+h11>=0.16.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
+torch>=2.7.1 # not directly required, pinned by Snyk to avoid a vulnerability
