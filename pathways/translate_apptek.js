@@ -19,6 +19,9 @@ export default {
         try {
             // Execute the primary AppTek translation
             const result = await runAllPrompts(args);
+            if(!result){
+                throw new Error('AppTek translation failed');
+            }
             return result;
         } catch (error) {
             // If AppTek translation fails, use the configured fallback pathway
