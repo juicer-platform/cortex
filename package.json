@@ -34,10 +34,10 @@
   "homepage": "https://github.com/aj-archipelago/cortex#readme",
   "dependencies": {
     "@aj-archipelago/subvibe": "^1.0.5",
-    "@apollo/server": "^4.7.3",
+    "@apollo/server": "^5.4.0",
     "@apollo/server-plugin-response-cache": "^4.1.2",
     "@apollo/utils.keyvadapter": "^3.0.0",
-    "@aws-sdk/client-s3": "^3.674.0",
+    "@aws-sdk/client-s3": "^3.894.0",
     "@azure/storage-blob": "^12.24.0",
     "@azure/storage-queue": "^12.24.0",
     "@datastructures-js/deque": "^1.0.4",
