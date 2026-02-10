@@ -3,3 +3,4 @@ fastapi[all]==0.89.0
 uvicorn[standard]==0.20.0
 gunicorn==22.0.0
 openai-whisper
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
